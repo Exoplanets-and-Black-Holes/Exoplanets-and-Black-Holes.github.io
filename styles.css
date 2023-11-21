@@ -102,3 +102,8 @@ table {
 td {
     display: inline-block; /* or use 'inline' depending on your layout preferences */
 }
+
+table, td {
+    border: 1px solid;
+    color: orange;
+}
