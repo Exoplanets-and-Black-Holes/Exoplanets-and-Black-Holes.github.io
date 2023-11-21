@@ -48,6 +48,10 @@ nav ul {
 }
 
 
+img {
+    display: block;
+    margin: 0 auto;
+}
 
 /* If images are wrapped in div elements, you can use the following */
 div {
@@ -60,21 +64,7 @@ div {
     justify-content: center;
 }
 
-/* Style to make images sit side by side */
-.image-container {
-    display: flex;
-}
-
-/* Optional: Add space between images */
-.image-container img {
-    margin-right: 10px; /* Adjust as needed */
-}
-
-/* Clear the margin for the last image in the container */
-.image-container img:last-child {
-    margin-right: 0;
-}
-
 table {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
