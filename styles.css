@@ -103,15 +103,10 @@ td {
     display: inline-block; /* or use 'inline' depending on your layout preferences */
 }
 
-table, td {
-    border: 1px solid;
-    color: orange;
-}
-
 footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 50%;
     text-align: center;
     padding: 10px;
     background-color: #f2f2f2;
