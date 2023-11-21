@@ -65,5 +65,6 @@ div {
 
 /* Center the table */
 table {
+    display: flex;
     margin: 0 auto;
 }
