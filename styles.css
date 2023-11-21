@@ -64,7 +64,7 @@ div {
 }
 
 /* Center the table */
-table {
+tr {
     display: flex;
     margin: 0 auto;
 }
