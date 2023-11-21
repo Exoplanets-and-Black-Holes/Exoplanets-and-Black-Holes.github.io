@@ -3,19 +3,22 @@ body {
     align-items: center;
     justify-content: center;
 }
-h1 {
+h1 { 
+    text-align: center;
     color: rgb(255, 0, 0);
     font-family: 'Lucida Sans';
     font-size: larger
 }
 
 h2 {
+    text-align: center;
     color: rgb(255, 123, 0);
     font-family: 'Lucida Sans';
-    font-size: large
+    font-size: large;
 }
 
 h3 {
+    text-align: center;
     color: rgb(255, 0, 0);
     font-family: 'Lucida Sans';
     font-size: medium
