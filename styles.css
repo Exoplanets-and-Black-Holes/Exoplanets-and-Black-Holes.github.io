@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -14,27 +15,22 @@ h1, h2, h3, p, table, th, td, .button, nav ul {
     text-align: center;
 }
 
-/* Text font a color assignment */
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     color: rgb(255, 0, 0);
 }
 
 h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     color: orange;
 }
 
 h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
     font-weight: 200;
 }
 
 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
 }
 
@@ -45,11 +41,10 @@ p {
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .button:hover {
-    background-color:rgb(255, 135, 0);
+    background-color: rgb(255, 135, 0);
 }
 
 nav ul {
@@ -76,11 +71,6 @@ img {
     margin: 0 auto;
 }
 
-/* If images are wrapped in div elements, you can use the following */
-div {
-    text-align: center;
-}
-
 /* Additional styles for centering */
 .container {
     display: flex;
@@ -89,18 +79,13 @@ div {
 
 /* Center the table */
 table {
-    margin: 0 auto;
-}
-
-/* Center the table */
-table {
-    width: 80%; /* Adjust the width as needed */
+    width: 80%;
     margin: 0 auto;
 }
 
 /* Set the display property for table cells */
 td {
-    display: inline-block; /* or use 'inline' depending on your layout preferences */
+    display: inline-block;
 }
 
 footer {
@@ -109,4 +94,5 @@ footer {
     width: 100%;
     padding: 10px;
     background-color: #f2f2f2;
+    text-align: center;
 }
