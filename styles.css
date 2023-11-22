@@ -89,9 +89,8 @@ td {
 }
 
 footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px;
     background-color: #f2f2f2;
-    text-align: center;
 }
