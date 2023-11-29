@@ -112,6 +112,10 @@ footer {
     font-size: 15px;
   }
 
+  .dropdown:hover {
+    background-color: rgb(226, 148, 3);
+  }
+
   
   /* Style for the dropdown content (hidden by default) */
   .dropdown-content {
