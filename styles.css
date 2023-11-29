@@ -117,7 +117,7 @@ footer {
 }
 
 .content {
-    padding: 0 18px;
+    padding: 18px;
     display: none;
     overflow: hidden;
     background-color: rgb(247, 169, 26);
