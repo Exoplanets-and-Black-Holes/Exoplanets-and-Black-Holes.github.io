@@ -6,6 +6,7 @@
         <title>Home | EBH</title>
         <link rel="icon" href="EBHIcon.png" type="image/x-icon">
         <link rel="stylesheet" href="styles.css">
+        <script type="module" src="/collapsible.js"></script>
     </head>
     <body>
         <div> <!-- Main Section -->
@@ -39,22 +40,6 @@
     <div class="content">
         <p>OuiOuiMFS</p>
     </div>   
-    <script>
-        var coll = document.getElementsByClassName("dropdown");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-            });
-        }
-        </script>
     <footer> <!-- Footer -->
         <h1>Exoplanets and Black Holes</h1>
         <h2 class="ital">All About Space</h2>
