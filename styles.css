@@ -103,16 +103,13 @@ footer {
 .dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Style for the dropdown button */
-  .dropdown button {
     padding: 10px;
     background-color: orange;
     color: white;
     border: none;
     cursor: pointer;
   }
+
   
   /* Style for the dropdown content (hidden by default) */
   .dropdown-content {
