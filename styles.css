@@ -117,9 +117,9 @@ footer {
 }
 
 .content {
-    padding: 18px;
+    padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: rgb(247, 169, 26);
-    width: 80%;
+    width: 85%;
 }
