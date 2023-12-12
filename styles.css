@@ -100,7 +100,33 @@ footer {
 }
 
 .dropdown {
+    background-color: rgb(255, 135, 0);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dropdown:hover {
+    background-color: rgb(255, 165, 0);
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
     background-color: orange;
+}
+
+.holding-box {
+    background-color: rgb(255, 135, 0);
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -112,17 +138,20 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.active, .dropdown:hover {
-    background-color: rgb(255, 135, 0);
-}
+.dropdown:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: gray;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
 
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: rgb(247, 169, 26);
-}
-
-.dropdown, .content {
-    box-sizing: border-box;
-}
+  .vnum {
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
