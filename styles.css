@@ -121,17 +121,8 @@ footer {
     display: none;
     overflow: hidden;
     background-color: rgb(247, 169, 26);
-    width: 77.8%;
 }
 
-.collapsible:after {
-    content: '\02795';
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796";
-  }
+.dropdown, .content {
+    box-sizing: border-box;
+}
