@@ -150,8 +150,17 @@ footer {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 
-  .vnum {
-    text-align: right;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
+.vnum {
+text-align: right;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+
+.eptable {
+    border: 2px solid white;
+}
+
+th {
+    border: 2px solid white;
+}
